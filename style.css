@@ -169,7 +169,7 @@
         font-weight: bold;
         background: #bde1ff;
     }
-    /* Contact css */
+    /* contact css */
     #contact header{
         background: no-repeat lightgrey url(images/cliff_rock.jpg);
         background-image: 1500px;
@@ -227,4 +227,41 @@
         color: #fff;
         margin-left: 300px;
     }
-    
+    /* cliffs css */
+    #cliffs header{
+        background: no-repeat lightgrey url(images/forest_cliff.jpg);
+        background-image: 1500px;
+    }
+    .wrapper {
+        padding: 0 45px;
+        height: 620px;
+       margin-top: 20px;
+    }
+    .Westcliff{
+        width: 626px;
+        float: right;
+    }
+    .northCliff{
+        width: 543px;
+        float: right;
+        padding-bottom: 15px;
+    }
+    .eastCliff{
+        width: 626px;
+        float: right;
+    }
+    .sothCliff{
+        width: 543px;
+        float: right;
+    }
+    .headingStyle{
+        background: #852b1b;
+        height: 40px;
+        color: #fff;
+        font-size: 1.3em;
+        font-weight: bold;
+        padding-top: 1em;
+        text-align: center;
+        width: 500px;
+        margin: 0;
+    }
