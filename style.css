@@ -4,10 +4,12 @@
         width: 100%;
         min-height: 400px;
         padding-top: 3em;
+        position: relative;
     }
     #home header{
         background: no-repeat lightgrey url(images/cliff_ocean.jpg);
         background-image: 1500px;
+
     }
     .main-header{
         background-color: rgb(255, 255, 255, 0.8);
@@ -15,6 +17,7 @@
         margin: 2em auto 0 auto;
         min-height: 100px;
         height: 100px;
+        position: relative;
     }
     .main-header .logo img{
         width: 100px;
@@ -265,3 +268,23 @@
         width: 500px;
         margin: 0;
     }
+
+
+    /* ==============================
+        HOME SECTION STYLES
+   ============================== */
+    #timeofday {
+        font-family: Arial, Helvetica, sans-serif; /* Set the font family */
+        color: #125688; /* Set the font color for the time text */
+        background-image: linear-gradient(0deg, rgba(251,215,139,1) 0%, rgba(118,213,245,1) 100%); /* Set the linear gradient background */
+        padding: 10px; /* Add some padding around the text */
+        display: inline-block; /* Make the container fit the content width */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow for depth */
+
+    }
+    
+    #timeofday span {
+        color: #3a3a3a; /* Set the font color for the label text */
+    }
+    
+    /* End of HOME SECTION STYLES */
