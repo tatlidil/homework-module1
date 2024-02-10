@@ -109,6 +109,18 @@
         width:90px;
         height: 90px;
     }
+
+       /* activity selectted cell styles*/
+
+    .selectable:hover {
+        cursor: pointer;
+    }
+    
+    .highlighted {
+        background-color: rgb(133, 255, 96); /* Or any color of your choice */
+    }
+
+    
     /* footer */
     footer{
         width: 100%;
