@@ -8,11 +8,10 @@
     }
     #home header{
         background: no-repeat lightgrey url(images/cliff_ocean.jpg);
-        background-image: 1500px;
-
+        background-image: cover;
     }
     .main-header{
-        background-color: rgb(255, 255, 255, 0.8);
+        background-color: rgba(19, 18, 18, 0.6);
         width: 700px;
         margin: 2em auto 0 auto;
         min-height: 100px;
@@ -204,7 +203,7 @@
     /* activities css */
     #activities header{
         background: no-repeat lightgrey url(images/runfly.jpg);
-        background-image: 1500px;
+        background-image: cover;
     }
     table{
         width: 1000px;
@@ -220,6 +219,13 @@
         color: #ffffff;
         border: none;
     }
+
+    .custom-button {
+        position: absolute;
+        right: 78%; /* Adjust as necessary */
+        bottom: 0; /* Adjust if you want to change vertical position */
+    }
+    
     
     caption{
         background: #852b1b;
@@ -333,7 +339,7 @@
         width: 626px;
         float: right;
     }
-    .sothCliff{
+    .southCliff{
         width: 543px;
         float: right;
     }
@@ -349,4 +355,77 @@
         margin: 0;
     }
 
+
+/* For tablets to small desktops (less than 992px) */
+@media (max-width: 992px) {
+    section div #partners {
+        width: 100%;
+        margin: 0 auto;
+    }
+    section div #partners .partner {
+        margin: 1rem;
+    }
+    .logo img {
+        position: relative;
+        bottom: 8px;
+    }
+    .main-menu {
+        max-width: 700px;
+        height: 120px;
+        position: absolute;
+        z-index: 1;
+    }
+    .main-menu #navbarNav ul li {
+        width: 30%;
+        border-left: none;
+        border-bottom: 1px solid rgba(202, 204, 202, 0.6);
+        background-color: rgba(38, 41, 61, 0.7);
+    }
+    #navbarNav {
+        margin-top: 0.5rem;
+    }
+    main {
+        padding: 3em 5em 3em 5em;
+        margin: 0;
+    }
+    #home .main-col-content {
+        padding: 25px;
+        min-height: 450px;
+        margin-top: 1em;
+    }
+} 
+
+/* For landscape phones to tablets (less than 768px) */
+@media (max-width: 768px) {
+    .main-header {
+        max-width: 700px;
+        width: auto;
+    }
+    footer #nondisclaimer .copy {
+        padding: 3.5em 0em 3.5em 0em;
+        text-align: center;
+        float: none;
+        font-size: 0.9em;
+    }
+    footer #nondisclaimer .social {
+        padding: 2.5em 0;
+        margin: 0;
+        text-align: center;
+        float: none;
+    }
+}
+
+/* For smaller phones (less than 321px) */
+@media (max-width: 321px) {
+    .main-header {
+        max-width: 300px;
+        width: 300px;
+    }
+    .main-menu #navbarNav ul li {
+        font-size: x-small;
+    }
+    #cliffs .cliffimage {
+        max-width: 310px;
+    }
+}
 

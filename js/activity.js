@@ -20,4 +20,24 @@ $(document).ready(function() {
             $('#displaySelected').css("margin-top", "0"); // remove spaces above display box
         }
     });
+
+    $("tr td").hover(function() {
+        if ($(this).text() != "Not Available" && $(this).index() != 0) {
+            $(this).css("cursor", "pointer");
+        }
+    }, function() {
+        // This is for when the mouse leaves the cell, you can reset any hover styles if needed.
+    });
+
+    // Feedback mechanism for a button click, showing success message.
+    $("#getInfo").click(function() {
+        setTimeout(function() {
+            alert("Success! Will get back with more info soon!");
+        }, 1000);
+    });
+
 });
+
+
+
+
